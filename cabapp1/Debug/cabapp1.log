@@ -1,0 +1,45 @@
+﻿Build started 06/03/2014 23:06:10.
+     1>Project "C:\Users\My\Desktop\sup\cabapp1\cabapp1\cabapp1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cabapp1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\cabapp1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\cabapp1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cabapp1.cpp cabapp1Dlg.cpp
+         cabapp1Dlg.cpp
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(207): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(208): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(209): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(232): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(233): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(239): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(261): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(262): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(263): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(264): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(265): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : see declaration of 'wcscat'
+     1>c:\users\my\desktop\sup\cabapp1\cabapp1\cabapp1dlg.cpp(266): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : see declaration of 'wcscpy'
+         cabapp1.cpp
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\cabapp1.res" cabapp1.rc 
+         
+     1>cabapp1.rc(170): error RC2135: file not found: C:\Users\supreet\Desktop\cabarc1.bmp
+         
+     1>Done Building Project "C:\Users\My\Desktop\sup\cabapp1\cabapp1\cabapp1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.53

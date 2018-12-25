@@ -1,0 +1,56 @@
+﻿Build started 2/10/2014 8:03:18 PM.
+     1>Project "C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\cabapp1\cabapp1.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\cabapp1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\cabapp1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\cabapp1.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\cabapp1.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cabapp1.cpp cabapp1Dlg.cpp
+         cabapp1.cpp
+         cabapp1Dlg.cpp
+     1>cabapp1Dlg.cpp(207): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>cabapp1Dlg.cpp(208): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(209): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>cabapp1Dlg.cpp(232): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(233): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(239): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>cabapp1Dlg.cpp(261): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>cabapp1Dlg.cpp(262): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(263): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(264): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(265): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>cabapp1Dlg.cpp(266): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\cabapp1.res" cabapp1.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\Release\cabapp1.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\cabapp1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\Release\cabapp1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\Release\cabapp1.lib" /MACHINE:X86 Release\cabapp1.res
+         Release\cabapp1.obj
+         Release\cabapp1Dlg.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         cabapp1.vcxproj -> C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\Release\cabapp1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\Release\cabapp1.exe;#1" /manifest Release\cabapp1.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\cabapp1.unsuccessfulbuild".
+         Touching "Release\cabapp1.lastbuildstate".
+     1>Done Building Project "C:\Users\supreet\Documents\Visual Studio 2010\Projects\cabapp1\cabapp1\cabapp1.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.58
